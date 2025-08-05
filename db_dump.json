@@ -1,0 +1,94 @@
+{
+    "posts": [
+        {
+            "_id": "6891fccefafbfdbf32996e20",
+            "founder_id": "6891fccefafbfdbf32996e1e",
+            "title": "Revolutionary AI Startup",
+            "description": "This AI will change the world...",
+            "niche_id": "6891fccefafbfdbf32996e1b",
+            "media": {
+                "images": [
+                    "https://example.com/img1.jpg"
+                ],
+                "youtube_links": [
+                    "https://youtu.be/dQw4w9WgXcQ"
+                ]
+            },
+            "gemini_rating": {
+                "score": 4.2,
+                "scale": 5,
+                "computed_at": "2025-08-05T12:45:02.407000",
+                "explain": "Good novelty and feasibility."
+            },
+            "user_rating": {
+                "total_score": 0,
+                "count": 0,
+                "avg": 0.0
+            },
+            "combined_rating": {
+                "score": 8.4,
+                "scale": 10,
+                "computed_at": "2025-08-05T12:45:02.407000"
+            },
+            "likes_count": 0,
+            "comments_count": 0,
+            "views_count": 0,
+            "created_at": "2025-08-05T12:45:02.407000"
+        }
+    ],
+    "reviews": [],
+    "users": [
+        {
+            "_id": "6891fccefafbfdbf32996e1e",
+            "username": "alice_founder",
+            "email": "alice@example.com",
+            "role": "founder",
+            "profile": {
+                "bio": "Tech entrepreneur",
+                "joined_at": "2025-08-05T12:45:02.274000",
+                "main_niche": "6891fccefafbfdbf32996e1b"
+            },
+            "niche_stats": {},
+            "posts": [
+                "6891fccefafbfdbf32996e20"
+            ],
+            "liked_posts": [],
+            "created_at": "2025-08-05T12:45:02.274000"
+        },
+        {
+            "_id": "6891fccefafbfdbf32996e1f",
+            "username": "bob_funder",
+            "email": "bob@example.com",
+            "role": "funder",
+            "profile": {
+                "bio": "Investor",
+                "joined_at": "2025-08-05T12:45:02.274000",
+                "main_niche": "6891fccefafbfdbf32996e1b"
+            },
+            "created_at": "2025-08-05T12:45:02.274000"
+        }
+    ],
+    "niches": [
+        {
+            "_id": "6891fccefafbfdbf32996e1b",
+            "slug": "tech",
+            "name": "Technology",
+            "description": "Hardware, software, AI",
+            "created_at": "2025-08-05T12:45:02.139000"
+        },
+        {
+            "_id": "6891fccefafbfdbf32996e1c",
+            "slug": "health",
+            "name": "Health",
+            "description": "Healthcare & biotech",
+            "created_at": "2025-08-05T12:45:02.139000"
+        },
+        {
+            "_id": "6891fccefafbfdbf32996e1d",
+            "slug": "edu",
+            "name": "Education",
+            "description": "EdTech and learning",
+            "created_at": "2025-08-05T12:45:02.139000"
+        }
+    ]
+}
