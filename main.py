@@ -37,6 +37,3 @@ async def rate_startups():
     # Get the startup ratings from the database
     ratings = await db["ratings"].find().to_list(100)
 
-    
-   
->>>>>>> fd2f591 (New changes)
