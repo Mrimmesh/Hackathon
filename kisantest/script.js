@@ -12,7 +12,7 @@ function getLocation() {
 
                     const temperature = weatherData.current.temp_c;
                     const condition = weatherData.current.condition.text;
-                    const placeName = weatherData.location.name + ', ' + weatherData.location.region;
+                    const placeName = weatherData.location.name + ', ' + weatherData.location.country;
 
                     const weatherPayload = {
                         location: {
